@@ -117,12 +117,12 @@ fmt.Println(docs)
 
 	}
 	//termQuery := elastic.NewTermQuery("title", "Bonjour")
-	termQuery := elastic.NewMatchQuery("title","bonjour")
+	termQuery := elastic.NewMatchQuery("content","1 Rue Des fontaines 91150")
 	var result *elastic.SearchResult
 	result, err = elasticClient.Search().
-		Index(elasticIndexName).            // search in index "documents"
+		Index("adresses").            // search in index "documents"
 		Query(termQuery).           // specify the query
-		Sort("title", true). // sort by "user" field, ascending
+		Sort("content", true). // sort by "user" field, ascending
 		From(0).Size(10).           // take documents 0-9
 		Pretty(true).               // pretty print request and response JSON
 		Do(ctx)

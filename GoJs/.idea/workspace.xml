@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b0733980-309e-46c3-ba72-90a673411371" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/run.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/serv.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -65,7 +64,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1574010911462</updated>
-      <workItem from="1574010912599" duration="2107000" />
+      <workItem from="1574010912599" duration="2707000" />
     </task>
     <servers />
   </component>
